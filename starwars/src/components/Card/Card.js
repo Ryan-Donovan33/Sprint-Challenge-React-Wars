@@ -10,11 +10,15 @@ const CardWrapper = styled.div`
 	background-color: #fec196;
 `;
 
-const Name = styled.h1`font-size: 1.2rem;`;
+const Name = styled.h1`
+	font-size: 1.2rem;
+	padding: 1%;
+`;
 
 const Details = styled.p`
 	font-size: 1rem;
 	color: white;
+	padding: 1%;
 `;
 
 const Card = (props) => {
