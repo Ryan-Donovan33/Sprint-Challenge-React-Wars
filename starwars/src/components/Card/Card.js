@@ -19,7 +19,7 @@ const Name = styled.h1`
 
 const Details = styled.p`
 	font-size: 1rem;
-	color: white;
+	color: #fbf5f3;
 	padding: 1%;
 `;
 
