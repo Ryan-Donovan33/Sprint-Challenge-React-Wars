@@ -12,16 +12,21 @@ const CardWrapper = styled.div`
 
 const Name = styled.h1`font-size: 1.2rem;`;
 
+const Details = styled.p`
+	font-size: 1rem;
+	color: white;
+`;
+
 const Card = (props) => {
 	return (
 		<CardWrapper>
 			<Name>Name: {props.jedi.name}</Name>
-			<p>Height: {props.jedi.height}</p>
-			<p>Mass: {props.jedi.mass}</p>
-			<p>Hair Color: {props.jedi.hair_color}</p>
-			<p>Skin Color: {props.jedi.skin_color}</p>
-			<p>Eye Color: {props.jedi.eye_color}</p>
-			<p>Birth Year: {props.jedi.birth_year}</p>
+			<Details>Height: {props.jedi.height}</Details>
+			<Details>Mass: {props.jedi.mass}</Details>
+			<Details>Hair Color: {props.jedi.hair_color}</Details>
+			<Details>Skin Color: {props.jedi.skin_color}</Details>
+			<Details>Eye Color: {props.jedi.eye_color}</Details>
+			<Details>Birth Year: {props.jedi.birth_year}</Details>
 		</CardWrapper>
 	);
 };
