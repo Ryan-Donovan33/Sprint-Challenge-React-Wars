@@ -7,12 +7,13 @@ const CardWrapper = styled.div`
 	width: 25%;
 	align-items: center;
 	margin: 3%;
-	background-color: #fec196;
+	background-color: #e28413;
 `;
 
 const Name = styled.h1`
 	width: auto;
 	font-size: 1.5rem;
+	font-weight: bold;
 	padding: 1%;
 	color: ;
 `;
