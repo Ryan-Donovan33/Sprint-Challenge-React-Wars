@@ -6,7 +6,7 @@ const MainWrapper = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center
-	width: 90%;
+	width: 100%;
 `;
 const MainPage = (props) => {
 	return (

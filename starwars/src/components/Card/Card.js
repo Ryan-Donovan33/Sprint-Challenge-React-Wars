@@ -4,15 +4,17 @@ import styled from 'styled-components';
 const CardWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 25%;
 	align-items: center;
 	margin: 3%;
 	background-color: #fec196;
 `;
 
 const Name = styled.h1`
-	font-size: 1.2rem;
+	width: auto;
+	font-size: 1.5rem;
 	padding: 1%;
+	color: ;
 `;
 
 const Details = styled.p`
@@ -24,7 +26,7 @@ const Details = styled.p`
 const Card = (props) => {
 	return (
 		<CardWrapper>
-			<Name>Name: {props.jedi.name}</Name>
+			<Name>{props.jedi.name}</Name>
 			<Details>Height: {props.jedi.height}</Details>
 			<Details>Mass: {props.jedi.mass}</Details>
 			<Details>Hair Color: {props.jedi.hair_color}</Details>

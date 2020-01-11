@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import axios from 'axios';
 import MainPage from './components/MainPage/MainPage';
+import styled from 'styled-components';
+
+const Wars = styled.h1`font-size: 3rem;`;
 
 const App = () => {
 	const [ data, setData ] = useState([]);
@@ -21,7 +24,7 @@ const App = () => {
 
 	return (
 		<div className="App">
-			<h1 className="Header">React Wars</h1>
+			<Wars>React Wars</Wars>
 			<MainPage data={data} />
 		</div>
 	);
