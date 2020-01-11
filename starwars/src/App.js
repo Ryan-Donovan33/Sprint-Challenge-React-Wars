@@ -11,9 +11,9 @@ const App = () => {
 	// side effect in a component, you want to think about which state and/or props it should
 	// sync up with, if any.
 	useEffect(() => {
-		axios.get('https://swapi.co/api/people/1/').then((res) => setData(res.data));
-		console.log(data).catch((err) => console.log(err));
+		axios.get('https://swapi.co/api/people/').then((res) => setData(res.data)).catch((err) => console.log(err));
 	}, []);
+	console.log(data);
 
 	return (
 		<div className="App">
